@@ -1,0 +1,38 @@
+body {
+	text-align: center;
+}
+
+h1 {
+	font-family: raleway;
+	color: #0D2C40;
+	letter-spacing: 1px;
+	font-weight: 400;
+	font-size: 45px;
+}
+
+h2 {
+	font-family: raleway;
+	color: #F15B31;
+	letter-spacing: 1px;
+	font-weight: 600;
+	font-size: 18px;
+}
+
+a:link, a:visited {
+	text-decoration: none;
+	color: inherit;
+}
+
+h3 {
+	font-family: raleway;
+	color: #0D2C40;
+	letter-spacing: 1px;
+	font-weight: 600;
+	font-size: 20px;
+}
+
+p {
+	font-family: droid-serif;
+	line-height: 26px;
+	font-size: 18px;
+}
