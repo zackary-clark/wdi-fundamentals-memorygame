@@ -13,10 +13,10 @@ new Card("king","diamonds","images/king-of-diamonds.png")
 var cardsInPlay = [];
 
 var createBoard = function() {
-	for (let i = 0; i < cards.length; i++) {
+	for (let i = 0; i < cards.length*4; i++) {
 		var cardElement = document.createElement('img');
 		cardElement.setAttribute('src', 'images/back.png');
-		cardElement.setAttribute('data-id',i);
+		cardElement.setAttribute('data-id',i%4);
 		cardElement.addEventListener('click', flipCard);
 		document.getElementById("game-board").appendChild(cardElement);
 	}
