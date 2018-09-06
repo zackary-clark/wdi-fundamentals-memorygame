@@ -63,6 +63,28 @@ p {
 	font-size: 18px;
 }
 
+input[type="button"] {
+	background-color: #0D2C40;
+	color: white;
+	width: 40px;
+	cursor: pointer;
+	box-shadow: 0 5px #999;
+	border-radius: 10px;
+	outline: none;
+	margin: 0px 5px;
+
+}
+
+input[type="button"]:hover {
+	background-color: grey;
+}
+
+input[type="button"]:active {
+	background-color: grey;
+	box-shadow: 0 1px #666;
+	transform: translateY(4px);
+}
+
 img {
 	margin: 40px 8px 0 8px;
 }
