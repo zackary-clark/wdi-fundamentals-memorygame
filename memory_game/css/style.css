@@ -85,6 +85,10 @@ input[type="button"]:active {
 	transform: translateY(4px);
 }
 
+#resetButton {
+	width: 80px;
+}
+
 img {
 	margin: 40px 8px 0 8px;
 }
